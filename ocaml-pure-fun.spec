@@ -15,6 +15,7 @@ Group:          Development/Other
 URL:		http://www.ocaml.info/home/ocaml_sources.html#pure-fun
 Source0:	http://hg.ocaml.info/release/pure-fun/archive/pure-fun-release-%{version}.tar.bz2
 # curl http://hg.ocaml.info/release/pure-fun/archive/release-%{version}.tar.bz2 > pure-fun-release-%{version}.tar.bz2
+BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 These files contain an SML-to-OCAML translation of source examples taken
