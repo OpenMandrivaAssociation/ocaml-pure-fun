@@ -1,6 +1,6 @@
 Name:		ocaml-pure-fun
 Version:	1.0.8
-Release:        %mkrel 3
+Release:        %mkrel 4
 Summary:        Okasaki's Purely Functional Datastructures in OCaml
 License:        free-software
 ##license notice writen in the files:
@@ -15,6 +15,7 @@ Group:          Development/Other
 URL:		http://www.ocaml.info/home/ocaml_sources.html#pure-fun
 Source0:	http://hg.ocaml.info/release/pure-fun/archive/pure-fun-release-%{version}.tar.bz2
 # curl http://hg.ocaml.info/release/pure-fun/archive/release-%{version}.tar.bz2 > pure-fun-release-%{version}.tar.bz2
+BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
@@ -29,7 +30,6 @@ from the following book:
 %package        doc
 Summary:        Development files for %{name}
 Group:          Development/Other
-Requires:       %{name} = %{version}-%{release}
 
 %description    doc
 These files contain an SML-to-OCAML translation of source examples taken
