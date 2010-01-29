@@ -43,14 +43,6 @@ from the following book:
 %prep
 %setup -q -n pure-fun-release-%{version}
 
-%build
-
-%install
-rm -rf %{buildroot}
-
-%clean
-rm -rf %{buildroot}
-
 %files doc
 %defattr(-,root,root)
 %doc README.txt README.okasaki Changes
