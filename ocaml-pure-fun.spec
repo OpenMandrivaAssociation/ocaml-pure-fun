@@ -48,3 +48,29 @@ from the following book:
 %doc README.txt README.okasaki Changes
 %doc chp*.ml
 
+
+
+%changelog
+* Fri Jan 29 2010 Funda Wang <fwang@mandriva.org> 1.0.8-4mdv2010.1
++ Revision: 498356
+- drop empty section
+
+* Thu Jul 09 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.0.8-4mdv2010.0
++ Revision: 393768
+- this is noarch package
+- fix doc package dependencies
+
+* Mon Jun 29 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.0.8-3mdv2010.0
++ Revision: 390537
+- rebuild
+
+* Sun Jun 28 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.0.8-2mdv2010.0
++ Revision: 390301
+- rebuild
+
+* Tue Mar 31 2009 Florent Monnier <blue_prawn@mandriva.org> 1.0.8-1mdv2009.1
++ Revision: 362976
+- added a buildroot tag
+- import ocaml-pure-fun
+
+
