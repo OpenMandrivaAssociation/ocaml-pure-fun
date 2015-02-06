@@ -1,6 +1,6 @@
 Name:		ocaml-pure-fun
 Version:	1.0.8
-Release:        %mkrel 4
+Release:        5
 Summary:        Okasaki's Purely Functional Datastructures in OCaml
 License:        free-software
 ##license notice writen in the files:
