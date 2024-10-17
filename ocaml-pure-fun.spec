@@ -12,7 +12,7 @@ License:        free-software
 #  modify it without any restrictions. It is distributed in the hope
 #  that it will be useful, but WITHOUT ANY WARRANTY.
 Group:          Development/Other
-URL:		http://www.ocaml.info/home/ocaml_sources.html#pure-fun
+URL:		https://www.ocaml.info/home/ocaml_sources.html#pure-fun
 Source0:	http://hg.ocaml.info/release/pure-fun/archive/pure-fun-release-%{version}.tar.bz2
 # curl http://hg.ocaml.info/release/pure-fun/archive/release-%{version}.tar.bz2 > pure-fun-release-%{version}.tar.bz2
 BuildArch:      noarch
